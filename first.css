@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles for Standard resolution mobile (up to 480px) - Portrait */
+@media only screen and (max-width: 480px) {
+  body {
+    background: url("sanriopurolandbg.jpg") center/cover no-repeat;
+    color: #4f4f4f; /* Adjust text color for better visibility on the background */
+  }
+}
+/* Styles for Large mobile/tablet (481px to 1024px) - Portrait */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  body {
+    background: url("sanriopurolandbg.jpg") center/cover no-repeat;
+    color: #333; /* Adjust text color */
+  }
+}
+/* Styles for Tablet/laptop (1025px and above) - Landscape */
+@media only screen and (min-width: 1025px) {
+  body {
+    background: url("sanriopurolandbg.jpg") center/cover no-repeat;
+    color: #060606; /* Adjust text color */
+  }
+}
+/* Content styles */
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  color: rgb(255, 93, 35);
+}
+
+h2 {
+  text-align: justify;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  background-color: rgba(255, 0, 242, 0.8); /* Semi-transparent white background for better text readability */
+  border-radius: 10px;
+  margin: 20px;
+}
+
+p {
+  text-align: justify;
+  padding: 20px;
+  background-color: rgba(255, 0, 242, 0.8); /* Semi-transparent white background for better text readability */
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* Ride styles */
+.ride {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 0, 230, 0.8);
+  border-radius: 10px;
+}
+
+.ride img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  position: relative;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(60, 60, 60, 0.8);
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: justify;
+}/*# sourceMappingURL=first.css.map */
